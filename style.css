@@ -1,0 +1,47 @@
+    
+.main > div{  
+    position: absolute;
+    top: calc(50% - 40vmin);
+    left: calc(50% - 40vmin);
+    width: 80vmin;
+    height: 80vmin;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #232621;
+    font-size: 6.5vmin;
+    text-align: center;
+}
+
+.black__cell,
+.white__cell{      
+    height:12.5%;
+    width: 12.5%;
+    float: left;   
+}
+
+
+.black__cell{
+    background-color: SaddleBrown;
+}
+
+.white__cell{
+    background-color: Wheat;
+}
+
+
+.black__piece{   
+    border: 1px solid black;  
+    background: #F6121C;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 10%;
+}
+
+.white__piece{  
+    border: 1px solid black;
+    background: white;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    margin: 10%;
+}
